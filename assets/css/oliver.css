@@ -1,0 +1,276 @@
+/* ---------------------
+Gobal styles
+----------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 40em;
+  margin: 0;
+  padding: 1em 2em 1.5em;
+  font-size: 1.2em;
+  line-height: 1.4;
+  color: #43464B;
+  background: #fff;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
+
+}
+
+/* ---------------------
+Paragraphs
+----------------------*/
+
+p {
+  margin: 0 0 1.5em;
+  line-height: 1.5;
+}
+
+/* ---------------------
+Headings
+----------------------*/
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  color: #807E78;
+  font-weight: 600;
+  font-family: 'Libre Franklin', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+h2 {
+  margin: 1.5em 0 1em;
+  font-size: 1.4em;
+}
+
+h3 {
+  margin: 0 0 .5em;
+  font-size: 1.1em;
+}
+
+h4 {
+  margin: 0 0 0.5em;
+  font-size: 1em;
+}
+
+
+/* ---------------------
+Lists
+----------------------*/
+
+ul li,
+ol li {
+  margin-bottom: .5em;
+}
+
+/* ---------------------
+Links
+----------------------*/
+
+a:link {
+  color: #0A7399;
+  background: transparent;
+}
+
+a:visited {
+  color: #0A7399;
+  background: transparent;
+}
+
+a:hover {
+  color: #007700;
+  background: transparent;
+}
+
+a:focus {
+  color: #fff;
+  background: #000;
+}
+
+a:active {
+  color: #AA0000;
+  background: transparent;
+}
+
+/* ---------------------
+Horizontal rules
+----------------------*/
+
+hr {
+  margin: 1em 0 3em;
+}
+
+figure {
+  margin: 2em 0;
+  padding: 0;
+}
+
+/* ---------------------
+Forms
+----------------------*/
+
+form {
+  margin: 2em 0;
+  padding: 1em;
+  background: #eee;
+}
+
+
+fieldset {
+  border: 0;
+  margin: 2em 0;
+  padding: 0;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.form-group {
+  margin: 0 0 1.5em;
+}
+
+.form-group-spaced {
+  margin: 0 0 2em;
+}
+
+.form-list {
+  margin: 0.5em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.label {
+  display: block;
+  margin: 0 0 0.3em;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #999;
+  font-size: 1em;
+  line-height: 1;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.input:focus {
+  outline: 2px solid #000;
+}
+
+.input:hover {
+  outline: 2px solid green;
+}
+
+.button,
+button {
+  display: inline-block;
+  padding: 0.75em 1em;
+  border: 0;
+  background: blue;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 0.2em;
+  font-size: 1em;
+  line-height: 1;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.button:focus,
+button:focus {
+  background: #000;
+  color: #fff;
+  outline: none;
+}
+
+.button:hover,
+button:hover {
+  background: green;
+  color: #fff;
+}
+
+.button:active,
+button:active {
+  background: red;
+  color: #fff;
+}
+
+/* ---------------------
+footer links
+----------------------*/
+
+.footer-links {
+  margin: 5em 0 1em;
+  font-size: .8em;
+}
+
+.footer-links a {
+  display: inline-block;
+  margin: 0 .3em;
+}
+
+/* ---------------------
+Hidden
+----------------------*/
+
+.sr-only,
+.hidden {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+/* ---------------------
+regions
+----------------------*/
+
+header {
+}
+
+nav {
+  margin: 2em 0;
+}
+
+footer {
+  margin: 3em 0 0;
+}
+
+.item {
+  overflow: hidden;
+  margin: 0 0 1em;
+  background: rgba(218,218,218,.3);
+  padding: 1em;
+  border-radius: .3em;
+}
+
+.item-img {
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+.item-img-large {
+  float: none;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.item-text {
+  overflow: hidden;
+}
