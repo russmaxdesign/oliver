@@ -33,10 +33,11 @@ Headings
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   line-height: 1.2;
   color: #807E78;
-  font-weight: 600;
+  font-weight: 400;
   font-family: 'Libre Franklin', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
 }
 
@@ -58,6 +59,7 @@ h3 {
 h4 {
   margin: 0 0 0.5em;
   font-size: 1em;
+  font-weight: 700;
 }
 
 
