@@ -36,8 +36,8 @@ h2,
 h3,
 h4 {
   line-height: 1.2;
-  color: #807E78;
-  font-weight: 400;
+  color: #ff4d00;
+  font-weight: 700;
   font-family: 'Libre Franklin', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
 }
 
@@ -77,17 +77,17 @@ Links
 ----------------------*/
 
 a:link {
-  color: #0A7399;
+  color: #444;
   background: transparent;
 }
 
 a:visited {
-  color: #0A7399;
+  color: #444;
   background: transparent;
 }
 
 a:hover {
-  color: #007700;
+  color: #ff4d00;
   background: transparent;
 }
 
@@ -175,9 +175,10 @@ legend {
 .button,
 button {
   display: inline-block;
-  padding: 0.75em 1em;
+  padding: 0.5em 1em;
   border: 0;
-  background: blue;
+  background: #444 !important;
+
   color: #fff !important;
   text-decoration: none;
   border-radius: 0.2em;
@@ -186,22 +187,28 @@ button {
   font-family: helvetica, arial, sans-serif;
 }
 
+.button-small {
+  font-size: .8em;
+  padding: 0.5em 1em 0.5em .75em;
+}
+
+
 .button:focus,
 button:focus {
-  background: #000;
+  background: #000 !important;
   color: #fff;
   outline: none;
 }
 
 .button:hover,
 button:hover {
-  background: green;
+  background: #ff4d00 !important;
   color: #fff;
 }
 
 .button:active,
 button:active {
-  background: red;
+  background: #ff0000 !important;
   color: #fff;
 }
 
