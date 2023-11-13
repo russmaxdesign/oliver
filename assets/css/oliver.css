@@ -250,10 +250,11 @@ regions
 ----------------------*/
 
 header {
+  margin: 0 0 2em 0;
 }
 
 nav {
-  margin: 2em 0;
+  margin: 1em 0 0;
 }
 
 footer {
@@ -266,6 +267,12 @@ footer {
   background: rgba(218,218,218,.3);
   padding: 1em;
   border-radius: .3em;
+}
+
+.item ul {
+  margin: 0;
+  padding: .5em .5em .2em;
+  list-style: none;
 }
 
 .item-img {
